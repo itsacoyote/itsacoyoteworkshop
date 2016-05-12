@@ -1,0 +1,8 @@
+<% if (item.categories && item.categories.length) { %>
+    <%- list_categories(item.categories, {
+                            show_count: false,
+                            class: 'article-category',
+                            style: 'none',
+                            separator: ', '
+                        }) %>
+        <% } %>

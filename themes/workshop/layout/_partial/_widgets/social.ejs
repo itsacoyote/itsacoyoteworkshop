@@ -1,0 +1,32 @@
+<% if (theme.social) { %>
+<div class="widget-wrap">
+    <h3 class="widget-title">Follow Me</h3>
+    <div class="widget social-links" itemscope itemtype="http://schema.org/Organization">
+        <link itemprop="url" href="http://itsacoyoteworkshop.com">
+        <% for (var i in theme.social) { %>
+            <%
+                var icon = "";
+                switch(i) {
+                    case "twitter":
+                    icon = "flaticon-twitter-logo-silhouette";
+                    break;
+                    case "instagram":
+                    icon = "flaticon-instagram-social-network-logo-of-photo-camera";
+                    break;
+                    case "facebook":
+                        icon = "flaticon-facebook-letter-logo";
+                    break;
+                    case "google-plus":
+                        icon = "flaticon-google-plus";
+                    break;
+                }
+            %>
+            <div>
+                <a itemprop="sameAs" href="<%- url_for(theme.social[i]) %>" target="_blank" title="<%= i %>">
+                    <i class="<%= icon %>"></i>
+                </a>
+            </div>
+            <% } %>
+    </div>
+</div>
+<% } %>

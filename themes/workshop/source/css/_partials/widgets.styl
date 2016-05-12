@@ -1,0 +1,97 @@
+.widget-wrap
+    margin-bottom 40px
+
+    .widget
+        color #656565
+
+    .widget-title
+        color #565656
+        font-size 1.3em
+        font-weight normal
+        margin 0
+
+    .social-links
+        div
+            display inline-block
+            width 40px
+            height 30px
+            text-align center
+            margin-top 10px
+        a
+            color #5A5A5A
+            display block
+            font-size 1.5em
+            text-decoration none
+            &:hover
+                color #0E609C
+
+
+    .widget-list
+        ul
+            list-style none
+            list-style-position outside
+            margin 0
+            padding 0
+            margin-left 5px
+
+            li
+                padding: 10px 0;
+
+                a:hover
+                    color #444
+
+            .category-list-count, .tag-list-count
+                padding-left 5px
+                font-size 0.8em
+                color gray
+
+                &::before
+                    content: "(";
+                &::after
+                    content: ")"
+        a
+            color #4E4E4E
+            text-decoration none
+            &::before
+                color: #A7A7A7;
+                content: "\f100";
+                font-size: 9px;
+                margin-right: 6px;
+                font-family: Flaticon;
+                -webkit-transition: 0.2s ease;
+                -moz-transition: 0.2s ease;
+                -ms-transition: 0.2s ease;
+                transition: 0.2s ease;
+
+
+#article-nav
+    margin-bottom 40px
+
+    .article-nav-link-wrap
+        display block
+        padding 10px 0
+        text-align center
+        position relative
+        text-decoration none
+        color gray
+        &:hover
+            background-color #E0E0E0
+
+    #article-nav-newer
+        border-top 1px solid #c1c1c1
+
+    #article-nav-older
+        border-top 1px solid #c1c1c1
+        border-bottom 1px solid #c1c1c1
+
+    #icon-chevron-left
+        position absolute
+        left 0
+        top 44%
+        color #ADADAD
+
+    #icon-chevron-right
+        position absolute
+        right 0
+        top 44%
+        color #ADADAD

@@ -1,0 +1,15 @@
+menu:
+  Home: /
+  Gallery: /categories/Gallery/
+  Contact: /contact/
+
+rss_url: atom.xml
+
+assets: http://images.itsacoyoteworkshop.com/site_assets/
+images: http://images.itsacoyoteworkshop.com/posts/
+
+social:
+    twitter: https://twitter.com/itsacoyote
+    instagram: https://www.instagram.com/itsacoyote/
+    facebook: https://www.facebook.com/ItsacoyoteWorkshop/
+    google-plus: https://plus.google.com/collection/oYpnz

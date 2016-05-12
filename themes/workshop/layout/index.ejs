@@ -1,0 +1,10 @@
+<section class="main clearfix index">
+    <% page.posts.each(function(item){ %>
+        <% if (item.layout === 'album') { %>
+            <%- partial('_partial/gallery-index', {item: item}) %>
+         <% } else { %>
+            <%- partial('_partial/article-index', {item: item}) %>
+         <% } %>
+    <% }); %>
+    <%- partial('_partial/pagination') %>
+</section>

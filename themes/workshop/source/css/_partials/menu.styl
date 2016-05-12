@@ -1,0 +1,129 @@
+.custom-wrapper {
+    background-color: #ffd390;
+    margin-bottom: 1em;
+    -webkit-font-smoothing: antialiased;
+    height: 4.5em;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+    position: relative;
+}
+
+.main-menu {
+    float: right;
+    margin-top: 28px;
+    width: 50%;
+}
+
+.menu-wrap {
+    margin: 0 auto
+}
+
+.pure-menu-heading {
+    padding: 0;
+}
+.pure-menu h1 {
+    margin: 0;
+}
+.site-logo {
+    height: 1.5em;
+    padding: 0.37em 0;
+}
+
+.main-menu .pure-menu-list {
+    float: right;
+}
+
+
+.custom-wrapper.open {
+    height: 18em;
+}
+
+.custom-toggle {
+    width: 48px;
+    height: 48px;
+    display: block;
+    position: absolute;
+    top: 1.0em;
+    right: 0.5em;
+    display: none;
+    z-index: 10;
+}
+
+.custom-toggle .bar {
+    background-color: #777;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 28px;
+    right: 14px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em) {
+    .site-logo {
+        height: 1.1em;
+        padding: 0.5em 0;
+    }
+    .main-menu {
+        float: unset;
+        padding: 0 1em;
+        width: 100%;
+    }
+
+    .main-menu .pure-menu-list {
+        width: 100%;
+    }
+
+    .main-menu ul li {
+        width: 100%;
+    }
+
+    .custom-menu-3 {
+        text-align: left;
+    }
+
+    .custom-toggle {
+        display: block;
+    }
+
+    .pure-menu-link {
+        padding: 1em;
+    }
+
+    .main-menu .pure-menu-list {
+        float: unset;
+    }
+
+    .main-menu .pure-menu-item {
+        display: block;
+    }
+}

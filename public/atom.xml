@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Itsacoyote Workshop</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.itsacoyoteworkshop.com/"/>
+  <updated>2016-05-10T21:22:48.000Z</updated>
+  <id>http://www.itsacoyoteworkshop.com/</id>
+  
+  <author>
+    <name>itsacoyote</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>New Website!</title>
+    <link href="http://www.itsacoyoteworkshop.com/2016/05/New-Website/"/>
+    <id>http://www.itsacoyoteworkshop.com/2016/05/New-Website/</id>
+    <published>2016-05-10T20:45:56.000Z</published>
+    <updated>2016-05-10T21:22:48.000Z</updated>
+    
+    <content type="html">&lt;p&gt;As I have been slow to keeping this website up to date, the previous version had some bugs that required some cleaning up. In part of that process I decided to build a whole new website using a new framework! My main employment is web development so it was a pretty good excuse for me to learn something new in the process of fixing up this site :)&lt;/p&gt;
+&lt;p&gt;Keep an eye out for updates coming soon! I’ll hopefully be able to recover some of my old postings and put them back up on the site. New updates will also be showing up as well!&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;As I have been slow to keeping this website up to date, the previous version had some bugs that required some cleaning up. In part of tha
+    
+    </summary>
+    
+      <category term="News" scheme="http://www.itsacoyoteworkshop.com/categories/News/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Skaven Warlord</title>
+    <link href="http://www.itsacoyoteworkshop.com/2015/06/Warlord/"/>
+    <id>http://www.itsacoyoteworkshop.com/2015/06/Warlord/</id>
+    <published>2015-06-15T15:31:00.000Z</published>
+    <updated>2016-05-11T18:27:50.767Z</updated>
+    
+    <content type="html">&lt;p&gt;A quick tabletop paint work for a local game store competition. Won the single unit fantasy.&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A quick tabletop paint work for a local game store competition. Won the single unit fantasy.&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="Gallery" scheme="http://www.itsacoyoteworkshop.com/categories/Gallery/"/>
+    
+    
+      <category term="warhammer" scheme="http://www.itsacoyoteworkshop.com/tags/warhammer/"/>
+    
+      <category term="skaven" scheme="http://www.itsacoyoteworkshop.com/tags/skaven/"/>
+    
+  </entry>
+  
+</feed>

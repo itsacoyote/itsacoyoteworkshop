@@ -1,0 +1,23 @@
+<!-- Custom Code -->
+<%- js('js/main.js') %>
+<% if (is_post()) { %>
+<script src="https://cdn.muut.com/1/moot.min.js"></script>
+<% } %>
+<!-- Google Analytics -->
+<%- partial('google-analytics') %>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://itsacoyoteworkshop.com",
+        "logo": "http://images.itsacoyoteworkshop.com/site_assets/itsacoyote-workshop-logo-vertical.png"
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "Itsacoyote Workshop",
+        "url": "http://itsacoyoteworkshop.com"
+    }
+</script>

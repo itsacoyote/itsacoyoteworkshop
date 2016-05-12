@@ -1,0 +1,84 @@
+@font-face
+    font-family Roboto
+    font-style normal
+    src url(/font/Roboto-Regular.ttf)
+@font-face
+    font-family FontAwesome
+    font-style normal
+    src url(/font/fontawesome-webfont.ttf)
+@font-face
+    font-family Flaticon
+    font-style normal
+    src url(/font/Flaticon.ttf)
+
+@import "_partials/flaticon.css"
+@import "_pure/base.css"
+@import "_pure/grid.css"
+@import "_pure/button.css"
+@import "_pure/form.css"
+@import "_pure/menu.css"
+@import "_partials/menu"
+@import "_partials/article-index"
+@import "_partials/widgets"
+@import "_partials/gallery"
+@import "_partials/pagination"
+
+html
+    background url(http://images.itsacoyoteworkshop.com/site_assets/cork_2.jpg) top left repeat
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"]
+    font-family: Roboto, sans-serif
+    font-color rgb(0,0,0, 0.87)
+
+.wrapper-full
+    max-width 1000px
+    padding-left 2em
+    padding-right 2em
+    position relative
+
+.head
+    background-color: #fff
+    position: relative;
+    z-index: 3;
+
+.header
+    text-align: center
+    padding: 1em
+
+.custom-wrapper
+    position: relative;
+    z-index: 1;
+    background-color: #f6f6f6
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 0px 2px 2px rgba(0, 0, 0, 0.098), 0px 0px 5px 1px rgba(0, 0, 0, 0.084)
+
+.main-content-wrap
+    max-width: 660px;
+
+.sidebar-wrap
+    width 340px
+    position absolute
+    top 0
+    right 0
+
+@media screen and (max-width: 1052px)
+
+    .main-content-wrap
+        display block
+        margin 0 auto
+
+    .sidebar-wrap
+        display block
+        position relative
+        margin 0 auto
+        width inherit
+        max-width 660px
+        margin-top 40px
+
+
+@media screen and (min-width: 48em)
+    .header, .content
+        max-width: 1000px
+        margin: 0 auto
+        padding-left: 2em
+        padding-right: 2em

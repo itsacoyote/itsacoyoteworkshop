@@ -1,0 +1,29 @@
+<div class="article-item">
+    <a class="article-link" href="<%- config.root %><%- item.path %>">
+        <% if (item.cover_index) { %>
+        <div class="article-media">
+            <img src="<%- theme.images %><%- item.cover_index %>" class="media" alt="<%- item.title %>" />
+        </div>
+        <% } %>
+        <div class="article-text">
+            <div class="article-title">
+                <h1><%- item.title || "Untitled" %></h1>
+                <h2>
+                    <%- partial('_partial/article-categories') %>
+                </h2>
+            </div>
+            <div class="article-content">
+                <% if (item.excerpt) { %>
+                    Excerpt:
+                    <%- item.excerpt %>
+                        <% }  else { %>
+                            <%- item.content %>
+                        <% } %>
+            </div>
+            <div class="article-meta">
+                <span class="article-date"><%= date(item.date) %></span>
+                 <% if (item.tags.length) { %>| <%- partial('article-tags', {showTitle: false}) %><% } %>
+            </div>
+        </div>
+    </a>
+</div>

@@ -1,0 +1,6 @@
+<% if (item.tags && item.tags.length) { %>
+    <div class="article-tag">
+        <% if(showTitle) { %><h5>Tags</h5><% } %>
+        <%- list_tags(item.tags, { show_count: false, style: 'link' }) %>
+    </div>
+<% } %>

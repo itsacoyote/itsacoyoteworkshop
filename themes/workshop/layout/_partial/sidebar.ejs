@@ -1,0 +1,11 @@
+<%- partial('_widgets/social') %>
+
+<%- partial('_widgets/about') %>
+
+<% if (is_post()) { %>
+    <%- partial('_widgets/nav', {post: page}) %>
+<% } %>
+
+<%- partial('_widgets/categories') %>
+
+<%- partial('_widgets/tags') %>
