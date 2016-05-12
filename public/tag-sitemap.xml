@@ -3,14 +3,28 @@
 
     <url>
         <loc>http://www.itsacoyoteworkshop.com/tags/warhammer/</loc>
-        <lastmod>2016-05-11T18:27:50.767Z</lastmod>
+        <lastmod>2016-05-11T18:27:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://www.itsacoyoteworkshop.com/tags/skaven/</loc>
-        <lastmod>2016-05-11T18:27:50.767Z</lastmod>
+        <lastmod>2016-05-11T18:27:52.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/tags/warhammer-40k/</loc>
+        <lastmod>2016-05-12T04:16:38.819Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/tags/blood-angels/</loc>
+        <lastmod>2016-05-12T04:16:38.819Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

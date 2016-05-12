@@ -7,8 +7,28 @@
     </url>
 
     <url>
+        <loc>http://www.itsacoyoteworkshop.com/2015/10/Sanguinary-Priests/</loc>
+        <lastmod>2016-05-12T04:16:38.819Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-sanguinary-priests/sanguinary-priest-1.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-sanguinary-priests/sanguinary-priest-2.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-sanguinary-priests/sanguinary-priest-3.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
         <loc>http://www.itsacoyoteworkshop.com/2015/06/Warlord/</loc>
-        <lastmod>2016-05-11T18:27:50.767Z</lastmod>
+        <lastmod>2016-05-11T18:27:52.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
