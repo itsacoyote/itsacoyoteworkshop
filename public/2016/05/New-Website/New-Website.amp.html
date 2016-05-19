@@ -108,22 +108,6 @@
 </head>
 
 <body>
-    <div class="header">
-        <a href="http://www.itsacoyoteworkshop.com">
-            <amp-img src="http://images.itsacoyoteworkshop.com/site_assets/itsacoyoteworkshop-logo.png" width="315" height="65"></amp-img>
-        </a>
-    </div>
-    <div class="content">
-        <amp-img src="http://images.itsacoyoteworkshop.com/posts/
-2016/05/new-website/new_site.jpg" layout="responsive" width="558" height="200"></amp-img>
-        <h1>New Website!</h1>
-        <p>As I have been slow to keeping this website up to date, the previous version had some bugs that required some cleaning up. In part of that process I decided to build a whole new website using a new framework! My main employment is web development so it was a pretty good excuse for me to learn something new in the process of fixing up this site :)</p>
-<p>Keep an eye out for updates coming soon! I’ll hopefully be able to recover some of my old postings and put them back up on the site. New updates will also be showing up as well!</p>
-
-        
-        <a class="muut" href="https://muut.com/i/itsacoyoteworkshop/2016/05/New-Website/" data-show_title="false" title="New Website!">Comments</a>
-    </div>
-
     <amp-analytics type="googleanalytics" id="itsacoyoteAMP">
         <script type="application/json">
             {
@@ -133,13 +117,39 @@
                 "triggers": {
                     "trackPageview": {
                     "on": "visible",
-                    "request": "pageview"
+                    "request": "pageview",
+                    "vars": {
+                        "title": "New Website!",
+                        "ampdocUrl": "http://www.itsacoyoteworkshop.com/2016/05/New-Website/New-Website.amp.html"
+                        }
+                    },
+                    "trackMuutClick": {
+                        "on": "click",
+                        "selector": ".muut",
+                        "request": "event",
+                        "vars": {
+                            "eventCategory": "comment",
+                            "eventAction": "comment-click"
+                        }
                     }
                 }
             }
-
         </script>
     </amp-analytics>
+    <div class="header">
+        <a href="http://www.itsacoyoteworkshop.com">
+            <amp-img src="http://images.itsacoyoteworkshop.com/site_assets/itsacoyoteworkshop-logo.png" width="315" height="65"></amp-img>
+        </a>
+    </div>
+    <div class="content">
+        
+        <amp-img src="http://images.itsacoyoteworkshop.com/posts/
+2016/05/new-website/new_site.jpg" layout="responsive" width="558" height="200"></amp-img>
+        <h1>New Website!</h1> <p>As I have been slow to keeping this website up to date, the previous version had some bugs that required some cleaning up. In part of that process I decided to build a whole new website using a new framework! My main employment is web development so it was a pretty good excuse for me to learn something new in the process of fixing up this site :)</p>
+<p>Keep an eye out for updates coming soon! I’ll hopefully be able to recover some of my old postings and put them back up on the site. New updates will also be showing up as well!</p>
+ 
+            <a class="muut" href="https://muut.com/i/itsacoyoteworkshop/2016/05/New-Website/" data-show_title="false" title="New Website!">Comments</a>
+    </div>
 </body>
 
 </html>

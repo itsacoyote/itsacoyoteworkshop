@@ -20,6 +20,7 @@
     "hexo-renderer-marked": "^0.2.9",
     "hexo-renderer-stylus": "^0.3.0",
     "hexo-server": "^0.1.3",
-    "hexo-uglify": "0.0.3"
+    "hexo-uglify": "0.0.3",
+    "hexo-generator-google-amp": "git://github.com/itsacoyote/hexo-generator-google-amp.git"
   }
 }
