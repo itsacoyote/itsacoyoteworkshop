@@ -7,6 +7,146 @@
     </url>
 
     <url>
+        <loc>http://www.itsacoyoteworkshop.com/2015/06/Warlord/</loc>
+        <lastmod>2016-05-20T03:26:12.418Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-skaven-warlord/skaven_warlord.png</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2015/10/Vindicare-Assassin/</loc>
+        <lastmod>2016-05-20T03:24:26.533Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-12-vindicare-assassin/vindicare-assassin.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-12-vindicare-assassin/vindicare-assassin-side.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-12-vindicare-assassin/vindicare-assassin-back.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2015/10/Gorimm-Kraghammer/</loc>
+        <lastmod>2016-05-20T03:20:37.102Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-10-15-gorimm-kraghammer/gorimm-kraghammer.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2015/07/Callidus-Assassin/</loc>
+        <lastmod>2016-05-20T03:14:15.010Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2015-07-30-callidus-assassin/callidus-assassin.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/01/Culexis-Assassin/</loc>
+        <lastmod>2016-05-20T03:06:02.138Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-01-10-culexis-assassin/culexis-assassin.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-01-10-culexis-assassin/culexis-assassin-back.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/01/Eversor-Assassin/</loc>
+        <lastmod>2016-05-20T03:04:51.744Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-01-10-eversor-assassin/eversor-assassin.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-01-10-eversor-assassin/eversor-assassin-back.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/05/Guild-Ball-Alchemists/</loc>
+        <lastmod>2016-05-20T02:55:05.735Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-19-Guild-Ball-Alchemists/alchemists-starter.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/05/Guild-Ball-Brewers/</loc>
+        <lastmod>2016-05-20T02:52:13.256Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-19-Guild-Ball-Brewers/brewers-starter.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/05/Monkey-King/</loc>
+        <lastmod>2016-05-20T02:48:28.377Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-19-Monkey-King/monkey-king.jpg</image:loc>
+        </image:image>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-19-Monkey-King/monkey-king-back.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
+        <loc>http://www.itsacoyoteworkshop.com/2016/05/Lieutenant-Winters/</loc>
+        <lastmod>2016-05-20T02:38:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+        <image:image>
+            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-19-lt-winters/lt-winters.jpg</image:loc>
+        </image:image>
+
+    </url>
+
+    <url>
         <loc>http://www.itsacoyoteworkshop.com/2015/10/Sanguinary-Priests/</loc>
         <lastmod>2016-05-12T04:16:38.819Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -22,18 +162,6 @@
 
         <image:image>
             <image:loc>http://www.itsacoyoteworkshop.com/2015-10-sanguinary-priests/sanguinary-priest-3.jpg</image:loc>
-        </image:image>
-
-    </url>
-
-    <url>
-        <loc>http://www.itsacoyoteworkshop.com/2015/06/Warlord/</loc>
-        <lastmod>2016-05-11T18:27:52.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-        <image:image>
-            <image:loc>http://www.itsacoyoteworkshop.com/2016-05-skaven-warlord/skaven_warlord.png</image:loc>
         </image:image>
 
     </url>

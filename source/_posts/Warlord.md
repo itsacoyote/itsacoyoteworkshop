@@ -5,8 +5,9 @@ category:
   - Gallery
 date: 2015-06-15 11:31:00
 tags:
-  - warhammer
-  - skaven
+  - Warhammer
+  - Skaven
+  - Games Workshop
 photos:
   - 2016-05-skaven-warlord/skaven_warlord.png
 cmon:
