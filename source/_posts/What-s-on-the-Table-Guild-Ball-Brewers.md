@@ -1,6 +1,7 @@
 ---
 title: 'What''s on the Table: Guild Ball Brewers'
 date: 2016-05-23 20:56:29
+category: News
 tags:
     - Brewers
     - Guild Ball
