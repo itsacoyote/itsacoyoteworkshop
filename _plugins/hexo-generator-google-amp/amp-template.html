@@ -110,11 +110,11 @@
 <body>
     <div class="header">
         <a href="http://www.itsacoyote.design">
-            <amp-img src="http://itsacoyote.design/site_assets/itsacoyoteworkshop-logo.png" width="315" height="65"></amp-img>
+            <amp-img src="http://s3.amazonaws.com/images.itsacoyoteworkshop.com/site_assets/itsacoyoteworkshop-logo.png" width="315" height="65"></amp-img>
         </a>
     </div>
     <div class="content">
-        {% if post.cover_index.length %}<amp-img src="http://itsacoyote.design/posts/
+        {% if post.cover_index.length %}<amp-img src="http://s3.amazonaws.com/images.itsacoyoteworkshop.com/posts/
 {{post.cover_index}}" layout="responsive" width="558" height="200"></amp-img>{% endif %}
         <h1>{{post.title}}</h1>
         {{ post.content | safe}}

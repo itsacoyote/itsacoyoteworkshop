@@ -21,7 +21,7 @@ env.addFilter('uriencode', function(str) {
 
 var ampTmplSrc = pathFn.join(__dirname, '../amp-template.html');
 var ampTmpl = nunjucks.compile(fs.readFileSync(ampTmplSrc, 'utf-8'), env);
-var image_url = "http://itsacoyote.design/posts/";
+var image_url = "http://s3.amazonaws.com/images.itsacoyoteworkshop.com/posts/";
 
 function createAmpPosts(posts, config) {
     var result = [];
