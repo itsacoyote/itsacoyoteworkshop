@@ -5,8 +5,8 @@ menu:
 
 rss_url: atom.xml
 
-assets: http://images.itsacoyoteworkshop.com/site_assets/
-images: http://images.itsacoyoteworkshop.com/posts/
+assets: http://itsacoyote.design/site_assets/
+images: http://itsacoyote.design/posts/
 
 social:
     twitter: https://twitter.com/itsacoyote
