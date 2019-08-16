@@ -1,0 +1,81 @@
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <meta name="msvalidate.01" content="0DEB9B3D329943664B9008FAA161DFC3" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' *.muut.com *.google-analytics.com *.googletagmanager.com *.jquery.com; img-src 'self' res.cloudinary.com s3.amazonaws.com/images.itsacoyote.design *.google-analytics.com *.akamaihd.net;">
+    <meta name="google-site-verification" content="6az5s_nGwNECir-XEESpyNPNV5wGhfbHjM82jCTcXxU" />
+    <meta property="op:markup_version" content="v1.0">
+    
+
+    <meta name="theme-color" content="#dddddd">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileColor" content="#dddddd">
+
+    <link rel="canonical" href="<%- url %>">
+    <!-- facebook article -->
+    <meta property="fb:pages" content="269832503131145" />
+    <meta property="fb:article_style" content="Itsacoyote">
+
+    <!--Description-->
+    <% if (page.description){ %>
+        <meta name="description" content="<%= page.description %>">
+    <% } else if (config.description){ %>
+        <meta name="description" content="<%= config.description %>">
+    <% } else if (page.excerpt){ %>
+        <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
+    <% } else if (page.content){ %>
+        <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } %>
+
+    <!--Author-->
+    <% if (config.author){ %>
+        <meta name="author" content="<%= config.author %>">
+    <% } %>
+
+    <!--Page Cover-->
+    <% var pageImage = ""; %>
+    <% if(is_post() && page.cover_index) {
+         pageImage = theme.cloudinary.url + 'c_fill,g_face:center,h_157,w_300/' + page.cover_index;
+     } else {
+         pageImage = "http://s3.amazonaws.com/images.itsacoyote.design/site_assets/og_image.jpg";
+     } %>
+
+        <%
+            var site_url = url.replace(/index\.html$/, '');
+        %>
+
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="157">
+
+        <%- open_graph({"image": pageImage, "url": site_url, "twitter_card": "summary_large_image", "twitter_id": "@itsacoyote"}) %>
+
+        <meta property="og:locale" content="en_US">
+    <!-- Title -->
+    <%
+        var title = [];
+        if (page.current > 1) title.push(__('page', page.current));
+        if (page.title) title.push(page.title);
+        if (page.category) title.push(page.category);
+        if (page.tag) title.push(page.tag);
+        if (page.archive) {
+            if (page.year) title.push(__('archive_b', page.year + (page.month ? '/' + page.month : '')));
+            else title.push(__('archive_a'));
+        }
+        title.push(config.title);
+    %>
+    <title><%= title.join(' - ') %></title>
+
+    <link rel="stylesheet" async href="/css/style.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-34787078-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-34787078-1');
+    </script>
+</head>

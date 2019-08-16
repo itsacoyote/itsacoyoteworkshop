@@ -1,0 +1,61 @@
+.gallery-images
+    width: 65%
+    display: inline-block
+    float: left
+
+.gallery-images:after, .gallery-description:after
+    clear: both
+
+.gallery-description
+    width: 35%
+    display: inline-block
+    float: left
+    background-color: #fff
+    padding: 20px
+    border: 1px solid #d2d2d2
+    h2
+        margin-top: 0
+
+.gallery-image
+    width: 100%
+    margin: 10px 0
+    text-align: center    
+    img
+        -webkit-box-shadow: 0px 2px 18px -6px rgba(0,0,0,0.75)
+        -moz-box-shadow: 0px 2px 18px -6px rgba(0,0,0,0.75)
+        box-shadow: 0px 2px 18px -6px rgba(0,0,0,0.75)
+
+.gallery-image:first-child
+    margin-top: 0
+    
+.bordering 
+    border-top: 1px dashed #d2d2d2
+    border-bottom: 1px dashed #fff
+    margin: 30px 0
+
+.cmon-button
+    display: inline-block
+    padding: 7px 10px
+    border-radius: 3px
+    background-color: #dbdaf7
+    text-decoration: none
+    font-weight: bold
+    margin-bottom: 10px
+    color: #725d8e
+
+@media screen and (max-width: 1000px)
+    .gallery-images
+        width: 100%
+        display: block
+        clear: both
+        float: none
+    
+    .gallery-description
+        width: 100%
+        clear: both
+        display: block
+        float: none
+        margin-bottom: 30px
+    
+    .gallery-image img
+        width: 100%

@@ -1,0 +1,85 @@
+.main-header 
+    border: 1px solid #d2d2d2    
+    position: relative
+    max-width: 1200px
+    margin: 0 auto
+    margin-top: -1px
+    height: 200px
+    background-image: url(http://res.cloudinary.com/itsacoyote/image/upload/v1504845582/itsacoyote-workshop-header_wdxbqx.jpg) 
+    background-position: center center no-repeat
+    background-size: cover
+
+.site-logo
+    display: inline-block
+    padding: 10px
+    height: 160px
+    a
+        display: block
+
+.main-nav
+    width: 100%
+    min-height: 40px
+    background-color: rgba(51, 53, 62, 0.79)
+
+.main-menu-mobile
+    display: none
+.main-menu-nav
+    width: 100%
+    padding: 0
+    margin: 0
+    min-height: 40px
+    list-style-type: none
+.menu-item
+    display: inline-block
+    line-height: 40px
+    &.active 
+        background-color: rgba(134, 188, 232, 0.35)
+    a
+        display: block
+        padding: 0 10px
+        color: #fff
+        text-decoration: none
+
+.social-icons-menu 
+    float: right
+.social-icon-button
+    display: inline-block
+    height: 40px
+    line-height: 40px
+    a
+        padding: 0 5px
+        margin: 0 2px
+        text-decoration: none
+        color: rgba(255, 255, 255, 0.75)
+        &:hover
+            color: rgba(255, 255, 255, 1)
+
+@media screen and (max-width: 600px)
+    .main-menu-mobile
+        display: block
+        height: 40px
+        line-height: 40px
+        text-align: center
+        color: #fff
+        cursor: pointer
+    .main-nav:after, .main-menu-nav:after
+        content: ''
+        clear: both
+        display: block
+    .social-icons-menu
+        float: left
+    .main-menu-nav
+        display: none
+        position: relative
+        z-index: 10
+        overflow: hidden
+        background-color: #686c71
+        &.open
+            display: block
+        li
+            display: block
+
+@media screen and (max-width: 900px)
+    .main-header
+        background-position: center left no-repeat
+        background-size: cover

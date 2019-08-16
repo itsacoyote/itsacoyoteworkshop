@@ -8,10 +8,10 @@ tags:
   - Games Workshop
   - Warhammer 40K
 photos:
-  - 2016-01-10-culexis-assassin/culexis-assassin.jpg
-  - 2016-01-10-culexis-assassin/culexis-assassin-back.jpg
+  - culexis/culexis-assassin.jpg
+  - culexis/culexis-assassin-back.jpg
 cmon: http://www.coolminiornot.com/391686
-cover_index: 2016-01-10-culexis-assassin/culexis-assassin-cover.jpg
+cover_index: culexis/culexis-assassin.jpg
 ---
 
 Detailed paint job in similar paint style to Games Workshop's cover design of the Culexis Assassin from Assassinorum: Execution Force.

@@ -1,0 +1,14 @@
+<article class="article-card">
+    <div class="article-container article--gallery-item">
+        <a href="<%- config.root %><%- item.path %>">
+            <img src="<%- theme.cloudinary.url %><%- theme.cloudinary.gallery_cover %><%- item.cover_index %>" alt="<%- item.title %>">
+        </a>
+        <a href="<%- config.root %><%- item.path %>">
+            <header class="article-title">
+                <h2>
+                    <%- item.title || "Untitled" %>
+                </h2>
+            </header>
+        </a>
+    </div>
+</article>

@@ -1,0 +1,49 @@
+.main-footer
+    max-width: 1200px
+    padding: 20px
+    background-color: #cbd1d4
+    margin: 0 auto
+
+
+.footer-top, .footer-bottom
+    clear: both
+    padding: 10px
+    &:after
+        content: ''
+        display: block
+        clear: both
+
+.footer-left
+    float: left
+    line-height: 35px
+    a
+        display: block
+
+.footer-right
+    float: right
+
+.footer-nav-menu
+    float: right
+    margin: 0
+    padding: 0
+    a
+        color: #7b7b7b
+        display: block
+
+.footer-bottom .social-icon-button a, .footer-bottom
+    color: #7b7b7b
+    
+.footer-bottom .social-icon-button a:hover
+    color: #567084
+
+@media screen and (max-width: 700px)
+    .main-footer
+        text-align: center
+    .footer-left, .footer-right, .footer-nav
+        width: 100%
+        text-align: center
+        float: left
+        clear: both
+    .footer-nav-menu
+        margin: 0 auto
+        float: none

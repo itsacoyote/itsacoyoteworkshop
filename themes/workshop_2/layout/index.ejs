@@ -1,0 +1,9 @@
+<% page.posts.each(function(item){ %>
+    <% if (item.layout === 'album') { %>
+        <%- partial('_partial/gallery-index', {item: item}) %>
+        <% } else { %>
+        <%- partial('_partial/article-index', {item: item}) %>
+        <% } %>
+<% }); %>
+<div class="clearfix"></div>
+<%- partial('_partial/pagination') %>

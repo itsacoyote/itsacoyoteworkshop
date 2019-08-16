@@ -1,0 +1,22 @@
+menu:
+  Home: index.html
+  Gallery: categories/Gallery/
+  News: categories/News/
+  Contact: contact/
+
+rss_url: atom.xml
+
+assets: http://s3.amazonaws.com/images.itsacoyote.design/site_assets/
+images: http://s3.amazonaws.com/images.itsacoyote.design/posts/
+cloudinary: 
+  url: http://res.cloudinary.com/itsacoyote/image/upload/
+  post_cover: c_crop,g_face:center,h_130,w_450/
+  gallery_cover: c_crop,g_face:center,h_400,w_400/
+  post_image: t_post-image/
+  article_top: c_fill,g_face:center,h_400,w_1000/
+
+social:
+    twitter: https://twitter.com/itsacoyote
+    instagram: https://www.instagram.com/itsacoyote/
+    facebook: https://www.facebook.com/ItsacoyoteWorkshop/
+    google-plus: https://plus.google.com/collection/oYpnz

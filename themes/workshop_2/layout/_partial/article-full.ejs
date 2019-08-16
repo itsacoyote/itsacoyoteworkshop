@@ -1,0 +1,64 @@
+<article>
+  <header>
+    <h1 class="article-page-title"><%- item.title || "Untitled" %></h1>
+    <div class="article-page-media">
+        <% if (item.cover_index) { %>
+          <figure>
+            <img src="<%- theme.cloudinary.url %><%- theme.cloudinary.article_top %><%- item.cover_index %>" class="media" alt="<%- item.title %>">
+          </figure>
+        <% } %>
+    </div>
+  </header>
+  <div class="article-page">    
+      <div class="article-content">
+          <%- item.content %>  
+          <br>
+          <time class="article-publish-date" datetime="<%- item.date %>"><%- full_date(item.date, 'MMMM Do YYYY') %></time>
+          <hr class="bordering">
+          <div class="article-meta">
+              <%- partial('article-tags', {showTitle: true}) %>
+          </div>
+      </div>    
+  </div>
+</article>
+<div class="article-comments">
+  <div class="article-comments-wrapper">
+      <h4>Comments</h4>
+      <%- partial("_partial/comments.ejs", {item: item}) %>
+  </div>    
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"http://itsacoyote.design/<%- item.path %>"
+  },
+  "headline": "<%- item.title %>",
+  "image": {
+    "@type": "ImageObject",
+    "url": "<%- theme.cloudinary.url %>c_crop,g_face:center,h_211,w_696/<%- item.cover_index %>",
+    "height": 211,
+    "width": 696
+  },
+  "datePublished": "<%- item.date %>",
+  "dateModified": "<%- item.updated %>",
+  "author": {
+    "@type": "Person",
+    "name": "itsacoyote"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Itsacoyote Workshop",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://s3.amazonaws.com/images.itsacoyote.design/site_assets/itsacoyoteworkshop-logo.png",
+            "width": 290,
+            "height": 60
+    }
+  },
+  "description": "Itsacoyote Workshop news updates on miniature painting"
+}
+</script>

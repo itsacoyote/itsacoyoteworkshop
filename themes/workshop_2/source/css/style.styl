@@ -1,0 +1,46 @@
+@font-face
+    font-family Roboto
+    font-style normal
+    src url(/font/Roboto-Regular.ttf)
+@font-face
+    font-family Flaticon
+    font-style normal
+    src url(/font/Flaticon.ttf)
+@font-face
+    font-family Roboto-Slab
+    font-style normal
+    src url(/font/RobotoSlab-Regular.ttf)
+
+* 
+    box-sizing: border-box
+
+body, html
+    margin: 0
+    padding: 0
+
+p
+    font-family: Roboto-Slab, serif
+    font-size: 1.2em
+    line-height: 1.6em
+    color: #636363
+
+a
+    color: #0d83e0
+
+html
+    background url(http://s3.amazonaws.com/images.itsacoyote.design/site_assets/cork_2.jpg) top left repeat
+    color: rgba(0, 0, 0, 0.8)
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"]
+    font-family: Roboto, sans-serif
+    font-color rgb(0,0,0, 0.87)
+
+@import "_partials/flaticon.css"
+@import "_layout/header"
+@import "_layout/main"
+@import "_layout/article"
+@import "_layout/gallery-page"
+@import "_layout/article-full"
+@import "_layout/article-page"
+@import "_layout/footer"

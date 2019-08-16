@@ -1,0 +1,27 @@
+<article class="article-card">    
+        <div class="article-container article--news-item">
+            <div class="article-news-image">
+                <a href="<%- config.root %><%- item.path %>">
+                    <img src="<%- theme.cloudinary.url %><%- theme.cloudinary.post_cover %><%- item.cover_index %>" alt="">
+                </a>
+            </div>  
+            <div class="article-news-content">
+                <div class="article-news-wrapper">
+                    <header>
+                        <h2>
+                            <a href="<%- config.root %><%- item.path %>"><%- item.title || "Untitled" %></a>
+                        </h2>
+                    </header>
+                    <a href="<%- config.root %><%- item.path %>">
+                        <% if (item.excerpt) { %>
+                            <p><%- item.excerpt %></p>
+                        <% }  else { %>
+                            <p><%- truncate(item.content, {length: 100}) %></p>
+                        <% } %>
+                    </a>
+                    <a href="<%- config.root %><%- item.path %>" class="read-more-button">Read More</a>
+                </div>                            
+            </div>                      
+        </div>
+    </a>
+</article>

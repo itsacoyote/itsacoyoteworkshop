@@ -1,0 +1,40 @@
+<nav class="main-nav">
+    <div id="mobile-menu-button" class="main-menu-mobile">
+        MENU 
+    </div>
+    <ul id="mobile-menu-list" class="main-menu-nav">
+        <% for (var i in theme.menu){ %>
+            <li class="menu-item <%= is_current(theme.menu[i]) ? 'active' : '' %>">
+                <a href="<%- url_for(theme.menu[i]) %>">
+                    <%= i %>
+                </a>
+            </li>
+        <% } %>
+        <li class="social-icons-menu">
+            <% for (var i in theme.social) { %>
+                <%
+                    var icon = "";
+                    switch(i) {
+                        case "twitter":
+                        icon = "flaticon-twitter-logo-silhouette";
+                        break;
+                        case "instagram":
+                        icon = "flaticon-instagram-social-network-logo-of-photo-camera";
+                        break;
+                        case "facebook":
+                            icon = "flaticon-facebook-letter-logo";
+                        break;
+                        case "google-plus":
+                            icon = "flaticon-google-plus";
+                        break;
+                    }
+                %>
+                <div class="social-icon-button">
+                    <a itemprop="sameAs" href="<%- url_for(theme.social[i]) %>" target="_blank" title="<%= i %>">
+                        <i class="<%= icon %>"></i>
+                    </a>
+                </div>
+            <% } %>  
+        </li>
+    </ul>  
+</nav>

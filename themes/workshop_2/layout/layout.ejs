@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" prefix="op: http://media.facebook.com/op#">
+<!-- Head tag -->
+<%
+    var page_type = "";
+    if (is_post()) {
+     page_type = "post";
+    } else if (is_home()) {
+        page_type = "home";
+    } else {
+        page_type = "page";
+    }
+%>
+    <%- partial('_partial/head') %>
+    <body>
+        <header class="main-header">
+            <div class="main-header">   
+                <div class="site-logo">
+                    <a href="/" title="Itsacoyote Workshop">
+                        <img src="http://s3.amazonaws.com/images.itsacoyote.design/site_assets/itsacoyoteworkshop-logo.png"  alt="Itsacoyote Workshop">
+                    </a>
+                </div>
+                <%- partial('_partial/menu') %>
+            </div>       
+        </header>
+        <main class="main-container <%- page_type %>">            
+            <section class="main-section">
+                <%- body %>
+            </section>
+        </main>
+        <%- partial('_partial/footer') %>
+    </body>
+
+</html>

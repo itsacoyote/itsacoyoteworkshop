@@ -9,8 +9,8 @@ tags:
   - Skaven
   - Games Workshop
 photos:
-  - 2016-05-skaven-warlord/skaven_warlord.png
+  - skaven_warlord_azn0z6
 cmon:
-cover_index: 2016-05-skaven-warlord/skaven_warlord_thumbnail.jpg
+cover_index: skaven_warlord_azn0z6
 ---
 A quick tabletop paint work for a local game store competition. Won the single unit fantasy.

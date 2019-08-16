@@ -1,0 +1,59 @@
+<article class="gallery-page">
+    <div class="gallery-images">
+        <% item.photos.forEach(function(image) { %>
+            <div class="gallery-image">
+                <img src="<%- theme.cloudinary.url %><%- theme.cloudinary.post_image %><%- image %>" class="media" alt="<%- item.title %>" />
+            </div>
+        <% }); %>
+    </div>
+    <div class="gallery-description">
+        <header>
+            <h2 class="article-title"><%- item.title || "Untitled" %></h2>
+        </header>
+        <div class="article-content">
+                <%- item.content %>
+                <% if (item.cmon) { %>
+                    <a class="cmon-button" href="<%- item.cmon %>" target="_blank">Visit on CMON</a>
+                <% } %>
+            </div>
+            <hr class="bordering">
+            <div class="article-meta">
+                <%- partial('article-tags', {showTitle: true}) %>
+        </div>
+    </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"http://itsacoyote.design/<%- item.path %>"
+  },
+  "headline": "<%- item.title %>",
+  "image": {
+    "@type": "ImageObject",
+    "url": "<%- theme.cloudinary_url %>c_crop,g_face:center,h_211,w_696/<%- item.cover_index %>",
+    "height": 211,
+    "width": 696
+  },
+  "datePublished": "<%- item.date %>",
+  "dateModified": "<%- item.updated %>",
+  "author": {
+    "@type": "Person",
+    "name": "itsacoyote"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Itsacoyote Workshop",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://s3.amazonaws.com/images.itsacoyote.design/site_assets/itsacoyoteworkshop-logo.png",
+            "width": 290,
+            "height": 60
+    }
+  },
+  "description": "Itsacoyote Workshop news updates on miniature painting"
+}
+</script>

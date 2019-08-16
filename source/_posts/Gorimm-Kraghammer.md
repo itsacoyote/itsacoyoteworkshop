@@ -8,9 +8,9 @@ tags:
   - Hero Forge
   - RPG
 photos:
-  - 2015-10-15-gorimm-kraghammer/gorimm-kraghammer.jpg
+  - gorimm-kraghammer_s5ni71.jpg
 cmon:
-cover_index: 2015-10-15-gorimm-kraghammer/gorimm-kraghammer-hero-forge.jpg
+cover_index: gorimm-kraghammer_s5ni71.jpg
 ---
 
 Commission work on a Hero Forge minature for a client's DnD game!

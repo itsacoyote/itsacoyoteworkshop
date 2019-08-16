@@ -8,9 +8,9 @@ tags:
   - Guild Ball
   - Alchemists
 photos:
-  - 2016-05-19-Guild-Ball-Alchemists/alchemists-starter.jpg
+  - v1504725883/alchemists-starter_leasfj.jpg
 cmon:
-cover_index: 2016-05-19-Guild-Ball-Alchemists/alchemists-cover.jpg
+cover_index: v1504725883/alchemists-starter_leasfj.jpg
 ---
 
 Quick tabletop level painting on Steamforged Guild Ball Alchemists starter set. Painted as an attempt to learn James Wappel's Shaded Basecoat technique with his videos.

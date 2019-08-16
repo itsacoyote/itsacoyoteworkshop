@@ -8,9 +8,9 @@ tags:
   - Guild Ball
   - Brewers
 photos:
-  - 2016-05-19-Guild-Ball-Brewers/brewers-starter.jpg
+  - brewers-starter_yrwkes.jpg
 cmon:
-cover_index: 2016-05-19-Guild-Ball-Brewers/brewers-cover.jpg
+cover_index: brewers-starter_yrwkes.jpg
 ---
 
 Painted up a quick tabletop level of Steamforged Guild Ball Brewers starter kit. This was a quick paint following James Wappel's Shaded Basecoat videos. A first time try, learned a number of things using the shaded basecoat technique.
