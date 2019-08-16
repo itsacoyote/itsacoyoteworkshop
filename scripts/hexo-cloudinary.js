@@ -14,10 +14,10 @@ function cloudinaryTagRender(args) {
     '" alt="' +
     imgAlt +
     '" src="' +
-    'http://res.cloudinary.com/itsacoyote/image/upload/t_post-image/' + 
+    'https://res.cloudinary.com/itsacoyote/image/upload/t_post-image/' +
     imgSrc +
     '">'
   );
 }
-  
+
 hexo.extend.tag.register("clPost", cloudinaryTagRender);
