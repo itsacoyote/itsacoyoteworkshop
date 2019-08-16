@@ -6,9 +6,9 @@ menu:
 
 rss_url: atom.xml
 
-assets: http://s3.amazonaws.com/images.itsacoyote.design/site_assets/
-images: http://s3.amazonaws.com/images.itsacoyote.design/posts/
-cloudinary: 
+assets: http://s3.amazonaws.com/images.itsacoyoteworkshop.com/site_assets/
+images: http://s3.amazonaws.com/images.itsacoyoteworkshop.com/posts/
+cloudinary:
   url: http://res.cloudinary.com/itsacoyote/image/upload/
   post_cover: c_crop,g_face:center,h_130,w_450/
   gallery_cover: c_crop,g_face:center,h_400,w_400/

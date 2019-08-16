@@ -9,23 +9,23 @@
         <% } %>
     </div>
   </header>
-  <div class="article-page">    
+  <div class="article-page">
       <div class="article-content">
-          <%- item.content %>  
+          <%- item.content %>
           <br>
           <time class="article-publish-date" datetime="<%- item.date %>"><%- full_date(item.date, 'MMMM Do YYYY') %></time>
           <hr class="bordering">
           <div class="article-meta">
               <%- partial('article-tags', {showTitle: true}) %>
           </div>
-      </div>    
+      </div>
   </div>
 </article>
 <div class="article-comments">
   <div class="article-comments-wrapper">
       <h4>Comments</h4>
       <%- partial("_partial/comments.ejs", {item: item}) %>
-  </div>    
+  </div>
 </div>
 
 <script type="application/ld+json">
@@ -54,7 +54,7 @@
     "name": "Itsacoyote Workshop",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://s3.amazonaws.com/images.itsacoyote.design/site_assets/itsacoyoteworkshop-logo.png",
+      "url": "http://s3.amazonaws.com/images.itsacoyoteworkshop.com/site_assets/itsacoyoteworkshop-logo.png",
             "width": 290,
             "height": 60
     }
